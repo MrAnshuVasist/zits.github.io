@@ -1,0 +1,233 @@
+/* navBar css apply from here */
+.logo{
+    height: 50px;
+     margin-left: 20px;
+}
+
+
+
+/* this is card css okk */
+    .informa {
+        /* height: 300px; */
+        width: 60%;
+        background-color: whitesmoke;
+        border-radius: 15px 15px 15px 15px;
+        margin: 20px 0px ;
+        display: flex;
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+        margin-left: 18%;
+    }
+
+    .infor {
+        /* height: 300px; */
+        width: 60%;
+        background-color: whitesmoke;
+        border-radius: 15px 15px 15px 15px;
+        margin: 20px 0px;
+        display: flex;
+        flex-direction: row-reverse;
+        flex-wrap: wrap;
+        margin-left: 30%;
+    }
+
+    .infor-1 {
+        /* height: 300px; */
+        width: 20%;
+        background-color: whitesmoke;
+        padding: 20px 0px;
+        border-radius: 15px 0px 0px 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .infor-1 img {
+        /* height: 230px;
+        width: 250px; */
+        /* height: 30vh; */
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .infor-2 {
+        /* height: 300px; */
+        width: 80%;
+        background-color: whitesmoke;
+        border-radius: 0px 15px 15px 0px;
+        padding: 10px 20px;
+        display: flex;
+        align-items: center;
+        text-align: justify;
+    }
+
+    @media screen and (max-width:700px) {
+        .infor {
+            flex-direction: column;
+            width: 100%;
+            margin-left: 0px;
+            
+        }
+
+        .informa {
+             width: 100%;
+            flex-direction: column;
+            margin-left: 0px;
+            
+        }
+
+        .infor-1 {
+            width: 100%;
+        }
+
+        .infor-2 {
+            width: 100%;
+        }
+    }
+
+ 
+
+
+@media screen and (max-width:700px) {
+    .footer-icon{
+        margin: 15px 8px;
+        font-size: 30px;
+    }
+}
+
+/* card is here ended okk */
+
+/* footer css is start from here */
+
+.footer{
+    /* height:10vh; */
+    /* width: 100vw; */
+    background-color: #17213B;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* position: fixed; */
+    /* position: sticky;
+    top: 100%; */
+    }
+  
+    .footer-icon{
+      color: white;
+    margin: 15px 25px;
+    font-size: 30px;
+    }
+  
+    @media screen and (max-width:700px) {
+    .footer-icon{
+    margin: 15px 8px;
+    font-size: 30px;
+    }
+    }
+ 
+/* the css of footer is ended here */
+
+/* rotating photo helped by H */
+
+.why-us-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ll-1{
+    display: flex;
+}
+.ll-1-rotate{
+    display: flex;
+}
+.ll-2{
+    display: flex;
+    margin: px;
+}
+.ll-2-rotate{
+    display: none;
+}
+.img img{
+    box-shadow: 5px 5px 5px gray;
+    border-radius: 5PX;
+    width: 200px;
+    margin: 20PX 20PX ;
+}
+        
+@media screen and (max-width:768px) {
+    .ll-1{
+        justify-content: center;
+        align-items: center;
+    }
+    .ll-1-rotate{
+        flex-direction: column;
+    }
+    .ll-2-rotate{
+        display: inline-block;
+        margin: 0px;
+    }
+    .ll-2{
+        display: none;
+    }
+
+    .img img{
+        width: 10vh;
+    }
+}
+/* rotating photo helped by H */
+
+/* Annimation 3 Div*/
+
+    
+.pr{
+      
+    margin-top: 50px;
+    display: flex;
+    
+    
+    background:white;
+  }
+
+  .first{
+    width:400px;
+    height: 15rem;
+    background: #EFA73E;
+    border-radius: 3rem;
+    position: absolute;
+    animation: f 5s infinite;
+  }
+  .sec{
+    width:400px;
+    height: 15rem;
+    background: #086E7D;
+    border-radius: 3rem;
+    /* transform: rotate(5deg); */
+    position: absolute;
+    animation: s 5s infinite;
+  }
+  .t{
+    width:400px;
+    height: 15rem;
+    background-image: url(bg.jpg);
+    border-radius: 3rem;
+    transform: rotate(0deg);
+    
+  }
+
+  @keyframes f {
+    25% {transform: rotate(14deg);}
+    50% {transform: rotate(0deg);}
+    75% {transform: rotate(-14deg);}
+    100% {transform: rotate(0deg);}
+  }
+
+  @keyframes s {
+    25% {transform: rotate(7deg);}
+    50% {transform: rotate(0deg);}
+    75% {transform: rotate(-7deg);}
+    100% {transform: rotate(0deg);}
+  }
+ 
+
+
